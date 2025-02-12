@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web del proyecto de sistema IoT para motocicletas">
+    <title>Proyecto IoT para Motocicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Sistema de Monitoreo y Control IoT para Motocicletas</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#problematica">Problemática</a></li>
+                <li><a href="#solucion">Solución</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#funcionamiento">Funcionamiento</a></li>
+                <li><a href="#aplicacion-web">Aplicación Web</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección de Introducción -->
+        <section id="introduccion" class="section-with-image">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Introducción</h2>
+                    <p>Mi nombre es <strong>Carlos Andrés Bolaños Ortega</strong>, soy estudiante de <strong>Tecnología en Electrónica Industrial</strong> en la <strong>Facultad de Ingeniería</strong>, actualmente cursando mi <strong>7mo semestre</strong>.</p>
+                    <p>Este proyecto nace de mi pasión por la electrónica y el desarrollo de soluciones innovadoras que combinen hardware y software para resolver problemas cotidianos. Con este sistema IoT para motocicletas, busco aplicar los conocimientos adquiridos durante mi formación académica, integrando tecnologías modernas como el ESP32 y protocolos de comunicación IoT para ofrecer una solución eficiente y de bajo costo.</p>
+                    <p>El proyecto consiste en el desarrollo de un sistema IoT para motocicletas que permita monitorear el estado de las luces, implementar un cortacorriente para mayor seguridad, y ofrecer la funcionalidad de encendido remoto.</p>
+                    <p>El sistema está diseñado para ser fácil de usar y altamente eficiente, integrando tecnologías modernas como el ESP32 y protocolos de comunicación IoT.</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="image/Motorcycle_IoT_System_Diagram_.jpeg" alt="Diagrama del sistema IoT para motocicletas">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Problemática -->
+        <section id="problematica">
+            <h2>Problemática</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Fallas en el sistema de luces</h3>
+                    <p>Muchas veces, los usuarios no se dan cuenta de que las luces de su moto no funcionan correctamente, lo que puede generar multas o accidentes.</p>
+                </div>
+                <div class="card">
+                    <h3>Vulnerabilidad a robos</h3>
+                    <p>Las motocicletas son vulnerables a robos debido a la falta de sistemas de seguridad avanzados.</p>
+                </div>
+                <div class="card">
+                    <h3>Falta de comodidad</h3>
+                    <p>El encendido manual de la moto puede ser incómodo, especialmente en climas fríos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Solución -->
+        <section id="solucion" class="section-with-image">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Solución Propuesta</h2>
+                    <p>El sistema propuesto integra tres funcionalidades principales:</p>
+                    <ul class="feature-list">
+                        <li>Monitoreo de luces en tiempo real.</li>
+                        <li>Cortacorriente activado de manera remota.</li>
+                        <li>Encendido remoto de la moto.</li>
+                    </ul>
+                </div>
+                <div class="image-placeholder">
+                    <img src="image/black_and_white_technical_draw.jpeg" alt="Mockup de la aplicación web">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Tecnologías -->
+        <section id="tecnologias">
+            <h2>Tecnologías Utilizadas</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>ESP32</h3>
+                    <p>Microcontrolador con Wi-Fi y Bluetooth para la comunicación IoT.</p>
+                </div>
+                <div class="card">
+                    <h3>Sensores de Corriente</h3>
+                    <p>Para detectar el estado de las luces.</p>
+                </div>
+                <div class="card">
+                    <h3>Relés</h3>
+                    <p>Para controlar el cortacorriente y el encendido remoto.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Funcionamiento -->
+        <section id="funcionamiento" class="section-with-image">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Funcionamiento del Sistema</h2>
+                    <ol class="step-list">
+                        <li>Los sensores detectan el estado de las luces y envían datos al ESP32.</li>
+                        <li>El ESP32 procesa los datos y los envía a la aplicación web.</li>
+                        <li>El usuario puede activar/desactivar el cortacorriente o encender la moto desde la aplicación web.</li>
+                    </ol>
+                </div>
+                <div class="image-placeholder">
+                    <img src="image/black_and_white_technical_draw (1).jpeg" alt="Diagrama de funcionamiento">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Aplicación Web -->
+        <section id="aplicacion-web" class="section-with-image">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Aplicación Web</h2>
+                    <p>La aplicación web permitirá al usuario:</p>
+                    <ul class="feature-list">
+                        <li>Ver el estado de las luces en tiempo real.</li>
+                        <li>Activar/desactivar el cortacorriente.</li>
+                        <li>Encender la moto de manera remota.</li>
+                    </ul>
+                </div>
+                <div class="image-placeholder">
+                    <img src="image/black_and_white_technical_draw (2).jpeg" alt="Mockup de la aplicación web">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Beneficios -->
+        <section id="beneficios">
+            <h2>Beneficios del Proyecto</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Seguridad</h3>
+                    <p>Reducción del riesgo de robos gracias al cortacorriente.</p>
+                </div>
+                <div class="card">
+                    <h3>Comodidad</h3>
+                    <p>Encendido remoto y monitoreo en tiempo real.</p>
+                </div>
+                <div class="card">
+                    <h3>Prevención</h3>
+                    <p>Detección temprana de fallos en las luces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit" class="button-pulse">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Proyecto IoT para Motocicletas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
